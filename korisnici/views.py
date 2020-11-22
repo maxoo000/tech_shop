@@ -1,5 +1,9 @@
 from django.shortcuts import render
-
+from prodavnica.models import Proizvod
 # Create your views here.
 def index(request):
-    return render(request, "korisnici/korisnici.html")
+    jedan = Proizvod.objects.all()[0]
+    
+    
+    
+    return render(request, "korisnici/korisnici.html", {"pr": jedan})

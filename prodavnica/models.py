@@ -5,7 +5,7 @@ from django.utils import timezone
 # Create your models here.
 class Proizvod(models.Model):
     ime = models.CharField(max_length=120, null=False, blank=False)
-    naslovna_slika = models.ImageField(blank=False, null=False, default="")
+    naslovna_slika = models.ImageField(blank=False, null=False)
     cena = models.FloatField()
     datum_dodavanja = models.DateField(default=timezone.now)
 

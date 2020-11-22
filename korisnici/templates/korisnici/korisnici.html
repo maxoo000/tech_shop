@@ -7,6 +7,9 @@
 </head>
 <body>
 <p>MAXO</p>
-<img src="{% static 'imgs/test.png' %}" alt="">
+<h1>{{ pr.ime }}</h1>
+<h1>{{ pr.datum_dodavanja }}</h1>
+<h1>{{ pr.cena }}</h1>
+<img src="{{ pr.naslovna_slika.url }}" alt="">
 </body>
 </html>
