@@ -1,0 +1,12 @@
+Package      Version
+------------ -------------------
+certifi      2020.6.20
+Django       2.2.5
+olefile      0.46
+Pillow       8.0.1
+pip          20.2.4
+pytz         2020.1
+setuptools   50.3.0.post20201103
+sqlparse     0.4.1
+wheel        0.35.1
+wincertstore 0.2
